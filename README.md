@@ -112,12 +112,11 @@ Library-QR-Code-Management-System/
 
 ## Key Insights
 
-- **QR-based workflows** streamline book issue and return processes, improving accuracy and operational speed.  
-- **Firebase Realtime Database** provides instant data synchronization, ensuring that all changes are reflected in real-time across the system.  
-- **Streamlit** enables rapid development of interactive, data-driven dashboards for library management.  
-- **Automation of core tasks**—such as overdue calculation and transaction logging—reduces manual errors and enhances efficiency.  
-- **Role-based authentication and structured workflows** ensure secure and organized management of books and student records.
-  
+- **QR-based workflows** streamline book issue and return processes, enhancing speed and accuracy.  
+- **Firebase Realtime Database** ensures instant data synchronization across the system.  
+- **Streamlit** allows rapid development of interactive, data-driven dashboards for library management.  
+- **Automation of core tasks**, such as overdue calculations and transaction logging, reduces manual errors and improves efficiency.  
+- **Role-based authentication and structured workflows** provide secure and organized management of books and student records.
 
 ---
 
