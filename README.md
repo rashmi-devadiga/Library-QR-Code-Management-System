@@ -181,6 +181,9 @@ streamlit run Home.py
 ---
 
 ## Author
-Rashmi Devadiga
+**Rashmi Devadiga**  
+Python Developer | Built QR-Based Library Management System using Streamlit & Firebase  
+[LinkedIn](https://linkedin.com/in/rashmidevadiga) 
+[GitHub](https://github.com/rashmi-devadiga)
 
 ---
