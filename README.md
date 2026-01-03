@@ -72,7 +72,7 @@ All data is stored in **Firebase Realtime Database**:
 ---
 
 ## Project Structure
-
+```md
 Library-QR-Code-Management-System/
 │
 ├── Home.py
