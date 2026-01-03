@@ -144,13 +144,9 @@ cd Library-QR-Code-Management-System
  Create virtual environment
 ```bash
 python -m venv venv
-```
- Activate on Windows
-```bash
+#Activate on Windows
 venv\Scripts\activate
-```
- Activate on macOS/Linux
-```bash
+#Activate on macOS/Linux
 source venv/bin/activate
 ```
 3. **Install dependencies**
