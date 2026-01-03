@@ -1,0 +1,8 @@
+streamlit==1.52.2
+pyrebase4==4.8.0
+opencv-python==4.12.0.88
+qrcode==8.2
+pillow==12.0.0
+pandas==2.3.3
+numpy==2.2.6
+requests==2.32.5
