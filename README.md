@@ -156,7 +156,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 **4. Configure Firebase**
-- Go to Firebase Console and create a new project.
+- Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.
 - Enable Email/Password Authentication.
 - Enable Realtime Database.
 - Rename firebase_config_example.py → firebase_config.py.
