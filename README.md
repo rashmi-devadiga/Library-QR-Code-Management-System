@@ -15,7 +15,7 @@ A **Streamlit-based Library Management System** using **Python** and **Firebase*
 3. [Data Storage](#data-storage)  
 4. [Tools & Technologies](#tools--technologies)  
 5. [Project Structure](#project-structure)  
-6. [Methods](#methods)  
+6. [System Workflow](#system-workflow)  
 7. [Key Insights](#key-insights)  
 8. [Use Cases](#use-cases)  
 9. [Future Enhancements](#future-enhancements)  
@@ -26,46 +26,45 @@ A **Streamlit-based Library Management System** using **Python** and **Firebase*
 
 ## Overview
 
-Traditional libraries often rely on manual processes for book management, student records, and transaction tracking. This system automates library operations using **QR code technology**, enabling:
+Traditional libraries often rely on manual processes for managing books, student records, and transactions, which can be time-consuming and error-prone. This system automates library operations using **QR code technology**, enabling:
 
-- Faster book issue and return processes
-- Accurate tracking of overdue books and penalties  
-- Efficient digital management of books and students  
-- Secure authentication and transaction logging  
+- Faster and more accurate book issue and return processes  
+- Reliable tracking of overdue books and penalty calculations  
+- Efficient digital management of books and student records  
+- Secure authentication and complete transaction logging  
 
 ---
 
 ## Problem Statement
 
-Manual library management is **time-consuming and error-prone**, leading to:
+Manual library management systems are **time-consuming and prone to human error**, which often results in:
 
 - Misplaced or lost books  
-- Difficulty tracking borrowed and returned books  
-- Errors in calculating overdue fines  
-- Inefficient student and book management  
+- Difficulty in tracking issued and returned books  
+- Incorrect calculation of overdue fines  
+- Inefficient management of student and book records  
 
-The **Library QR Code Management System** provides a **digital, QR-based solution** to handle these challenges efficiently.
+To address these challenges, the **Library QR Code Management System** introduces a **digital, QR-based approach** that automates library operations and improves accuracy, efficiency, and reliability.
 
 ---
 
 ## Data Storage
 
-All data is stored in **Firebase Realtime Database**:
+All application data is stored and managed using **Firebase Realtime Database**, ensuring real-time synchronization and secure data handling:
 
-- **Books:** Book ID, Title, Author, QR Code, Availability  
-- **Students:** Student ID, Name 
-- **Transactions:** Book issued, returned, due dates, overdue penalties  
-
-> No external dataset is required; all data is managed in Firebase.
+- **Books:** Book ID, Title, Author, QR Code, Availability Status, Issued Status  
+- **Students:** Student ID, Name
+- **Transactions:** Book issue and return records, due dates, and overdue penalty details  
+> All data is created and maintained within Firebase; no external sources are needed.
 
 ---
 
 ## Tools & Technologies
 
-- **Frontend:** Streamlit  
+- **Frontend:** Streamlit 
 - **Backend:** Python  
 - **Database:** Firebase Realtime Database  
-- **QR Code:** `qrcode`, OpenCV  
+- **QR Code generation & Scanning:** `qrcode`, OpenCV  
 - **Authentication:** Firebase Authentication  
 - **Version Control:** Git & GitHub  
 
@@ -95,23 +94,30 @@ Library-QR-Code-Management-System/
 ```
 ---
 
-## Methods
+## System Workflow
 
-1. **User Authentication** – Secure login via Firebase Authentication.  
-2. **Book Management** – Add, update, delete books; generate QR codes.  
-3. **Student Management** – Add, update, remove student records.  
-4. **Book Issue & Return** – Scan QR codes to issue/return books; track due dates.  
-5. **Overdue Tracking** – Automatic penalty calculation based on due dates.  
-6. **Transaction History** – Complete log of issued and returned books.
+1. **User Authentication** – Secure login using **Firebase Authentication** with email and password, ensuring that only authorized librarians or admins can access the system.  
+
+2. **Book Management** – Add, update, or remove books from the library database, and automatically generate QR codes for each book for fast scanning.  
+
+3. **Student Management** – Maintain student records by adding, updating, or removing student information efficiently.  
+
+4. **Book Issue & Return** – Scan book QR codes to issue or return books. The system enforces a **maximum book issue limit per student**, tracks due dates, and updates the status of each book automatically.  
+
+5. **Overdue Tracking** – Automatically calculate overdue fines based on due dates, ensuring accurate penalties for late returns.  
+
+6. **Transaction History** – Maintain a complete log of all book issue and return transactions for easy auditing and reporting.
 
 ---
 
 ## Key Insights
 
-- QR-based workflows significantly improve accuracy and speed.
-- Firebase Realtime Database enables instant data synchronization.
-- Streamlit allows rapid development of data-driven dashboards.
-- Automation reduces manual errors in book tracking and fine calculation.  
+- **QR-based workflows** streamline book issue and return processes, improving accuracy and operational speed.  
+- **Firebase Realtime Database** provides instant data synchronization, ensuring that all changes are reflected in real-time across the system.  
+- **Streamlit** enables rapid development of interactive, data-driven dashboards for library management.  
+- **Automation of core tasks**—such as overdue calculation and transaction logging—reduces manual errors and enhances efficiency.  
+- **Role-based authentication and structured workflows** ensure secure and organized management of books and student records.
+  
 
 ---
 
