@@ -135,12 +135,12 @@ Library-QR-Code-Management-System/
 
 ## How to Run This Project
 
-1. **Clone the repository**
+**1. Clone the repository**
 ```bash
 git clone https://github.com/rashmi-devadiga/Library-QR-Code-Management-System.git
 cd Library-QR-Code-Management-System
 ```
-2. **Create a virtual environment (optional but recommended)**
+**2. Create a virtual environment (optional but recommended)**
 ```bash
 #Create virtual environment
 python -m venv venv
@@ -151,11 +151,11 @@ venv\Scripts\activate
 #Activate on macOS/Linux
 source venv/bin/activate
 ```
-3. **Install dependencies**
+**3. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
-4. **Configure Firebase**
+**4. Configure Firebase**
 - Go to Firebase Console and create a new project.
 - Enable Email/Password Authentication.
 - Enable Realtime Database.
@@ -173,7 +173,7 @@ firebase_config = {
     "appId": "YOUR_APP_ID"
 }
 ```
-5. **Run the Streamlit app**
+**5. Run the Streamlit app**
 ```bash
 streamlit run Home.py
 ```
