@@ -1,0 +1,13 @@
+venv/
+
+__pycache__/
+*.pyc
+
+firebase_config.py
+
+.env
+
+.streamlit/
+
+.DS_Store
+Thumbs.db
