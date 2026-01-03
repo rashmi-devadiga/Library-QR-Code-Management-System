@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Firebase secrets (DO NOT COMMIT)
+firebase_config.py
+
+# Environment variables
+.env
+
+# Streamlit local config
+.streamlit/
+
+# OS / system files
+.DS_Store
+Thumbs.db
