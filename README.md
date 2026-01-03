@@ -141,15 +141,15 @@ git clone https://github.com/rashmi-devadiga/Library-QR-Code-Management-System.g
 cd Library-QR-Code-Management-System
 ```
 2. **Create a virtual environment (optional but recommended)**
-# Create virtual environment
+ Create virtual environment
 ```bash
 python -m venv venv
 ```
-# Activate on Windows
+ Activate on Windows
 ```bash
 venv\Scripts\activate
 ```
-# Activate on macOS/Linux
+ Activate on macOS/Linux
 ```bash
 source venv/bin/activate
 ```
