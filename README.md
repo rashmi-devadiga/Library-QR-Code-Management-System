@@ -92,7 +92,7 @@ Library-QR-Code-Management-System/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## Methods
