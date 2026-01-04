@@ -4,7 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.25-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-A **Streamlit-based Library Management System** using **Python** and **Firebase** that leverages **QR code technology** to manage books, students, and library transactions efficiently. The system enables **secure authentication, QR-based book issue/return, transaction history tracking, and overdue penalty management**, allowing librarians to manage library operations digitally with improved accuracy and efficiency.
+A **Streamlit-based Library Management System** built with Python and Firebase, using QR code technology for secure authentication, efficient book issue/return, transaction tracking, and automated overdue penalty management.
 
 ---
 
