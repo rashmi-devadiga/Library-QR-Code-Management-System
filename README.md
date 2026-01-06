@@ -189,5 +189,3 @@ streamlit run Home.py
 **Rashmi Devadiga**  
 Bachelor of Computer Applications Graduate  
 [LinkedIn](https://linkedin.com/in/rashmidevadiga) | [GitHub](https://github.com/rashmi-devadiga)
-
----
