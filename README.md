@@ -187,7 +187,7 @@ streamlit run Home.py
 
 ## Author
 **Rashmi Devadiga**  
-BCA Graduate | Python Developer | Streamlit & Firebase Applications   
+Bachelor of Computer Applications Graduate
 [LinkedIn](https://linkedin.com/in/rashmidevadiga) |
 [GitHub](https://github.com/rashmi-devadiga)
 
