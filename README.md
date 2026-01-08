@@ -87,7 +87,7 @@ Library-QR-Code-Management-System/
 ├── helpers/
 │   └── firebase_helpers.py
 │
-├── firebase_config_example.py
+├── firebase_config.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -161,23 +161,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 **4. Configure Firebase**
-- Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.
-- Enable Email/Password Authentication.
-- Enable Realtime Database.
-- Rename firebase_config_example.py → firebase_config.py.
-
-- Add your Firebase credentials in firebase_config.py:
-```python
-firebase_config = {
-    "apiKey": "YOUR_API_KEY",
-    "authDomain": "YOUR_PROJECT_ID.firebaseapp.com",
-    "databaseURL": "https://YOUR_PROJECT_ID.firebaseio.com",
-    "projectId": "YOUR_PROJECT_ID",
-    "storageBucket": "YOUR_PROJECT_ID.appspot.com",
-    "messagingSenderId": "YOUR_SENDER_ID",
-    "appId": "YOUR_APP_ID"
-}
-```
+1. Go to Firebase Console & create a new project
+2. Enable Email/Password Authentication
+3. Enable Firestore Database
+4. Create a Web App and copy the Firebase configuration
+5. Paste the configuration into firebase_config.py.
 **5. Run the Streamlit app**
 ```bash
 streamlit run Home.py
