@@ -166,6 +166,7 @@ pip install -r requirements.txt
 3. Enable Firestore Database
 4. Create a Web App and copy the Firebase configuration
 5. Paste the configuration into firebase_config.py.
+
 **5. Run the Streamlit app**
 ```bash
 streamlit run Home.py
